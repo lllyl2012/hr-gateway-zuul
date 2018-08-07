@@ -1,0 +1,6 @@
+2018-08-07 17:00:06,051 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-07 17:00:13,019 INFO (StartupInfoLogger.java:59)- Started ZuulApplication in 9.142 seconds (JVM running for 9.577)
+2018-08-07 17:00:20,148 DEBUG (SecurityAction.java:52)- 登录了
+2018-08-07 17:00:26,471 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT u.*,r.*,p.* FROM user u inner join user_role ur ON ur.uid = u.uid INNER JOIN role r ON r.rid = ur.rid INNER JOIN permission_role pr ON pr.rid = r.rid INNER JOIN permission p ON p.pid = pr.pid WHERE u.username = ? 
+2018-08-07 17:00:26,795 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: demo(String)
+2018-08-07 17:00:26,959 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
