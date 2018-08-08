@@ -37,7 +37,9 @@ public class SecurityAction {
 	private UserService userService;
 
 	@RequestMapping("/index")
-	public String index(Model model) {
+	public String index(Model model,HttpSession session) {
+		session.setAttribute("name", "haha");
+		System.out.println(session.getId());
 		return "index";
 	}
 

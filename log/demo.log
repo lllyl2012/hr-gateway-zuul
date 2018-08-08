@@ -1,6 +1,72 @@
-2018-08-07 17:00:06,051 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
-2018-08-07 17:00:13,019 INFO (StartupInfoLogger.java:59)- Started ZuulApplication in 9.142 seconds (JVM running for 9.577)
-2018-08-07 17:00:20,148 DEBUG (SecurityAction.java:52)- 登录了
-2018-08-07 17:00:26,471 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT u.*,r.*,p.* FROM user u inner join user_role ur ON ur.uid = u.uid INNER JOIN role r ON r.rid = ur.rid INNER JOIN permission_role pr ON pr.rid = r.rid INNER JOIN permission p ON p.pid = pr.pid WHERE u.username = ? 
-2018-08-07 17:00:26,795 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: demo(String)
-2018-08-07 17:00:26,959 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-08-08 10:14:49,967 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-08 10:15:00,494 INFO (StartupInfoLogger.java:59)- Started ZuulApplication in 12.737 seconds (JVM running for 13.167)
+2018-08-08 10:15:55,446 DEBUG (SecurityAction.java:53)- 登录了
+2018-08-08 10:15:55,931 DEBUG (SecurityAction.java:53)- 登录了
+2018-08-08 10:15:55,949 DEBUG (SecurityAction.java:53)- 登录了
+2018-08-08 10:16:02,689 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT u.*,r.*,p.* FROM user u inner join user_role ur ON ur.uid = u.uid INNER JOIN role r ON r.rid = ur.rid INNER JOIN permission_role pr ON pr.rid = r.rid INNER JOIN permission p ON p.pid = pr.pid WHERE u.username = ? 
+2018-08-08 10:16:02,944 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: demo(String)
+2018-08-08 10:16:03,098 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-08-08 10:19:30,287 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-08 10:19:38,347 INFO (StartupInfoLogger.java:59)- Started ZuulApplication in 10.185 seconds (JVM running for 10.615)
+2018-08-08 10:20:07,994 DEBUG (SecurityAction.java:53)- 登录了
+2018-08-08 10:20:12,528 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT u.*,r.*,p.* FROM user u inner join user_role ur ON ur.uid = u.uid INNER JOIN role r ON r.rid = ur.rid INNER JOIN permission_role pr ON pr.rid = r.rid INNER JOIN permission p ON p.pid = pr.pid WHERE u.username = ? 
+2018-08-08 10:20:12,718 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: demo(String)
+2018-08-08 10:20:12,747 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-08-08 10:22:51,024 DEBUG (SecurityAction.java:53)- 登录了
+2018-08-08 10:22:55,918 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT u.*,r.*,p.* FROM user u inner join user_role ur ON ur.uid = u.uid INNER JOIN role r ON r.rid = ur.rid INNER JOIN permission_role pr ON pr.rid = r.rid INNER JOIN permission p ON p.pid = pr.pid WHERE u.username = ? 
+2018-08-08 10:22:55,919 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: demo(String)
+2018-08-08 10:22:55,923 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-08-08 10:26:19,432 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-08 10:26:28,164 INFO (StartupInfoLogger.java:59)- Started ZuulApplication in 10.856 seconds (JVM running for 11.288)
+2018-08-08 10:30:26,547 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-08 10:30:36,699 INFO (StartupInfoLogger.java:59)- Started ZuulApplication in 12.342 seconds (JVM running for 12.77)
+2018-08-08 10:31:30,787 DEBUG (SecurityAction.java:53)- 登录了
+2018-08-08 10:31:39,189 DEBUG (SecurityAction.java:53)- 登录了
+2018-08-08 10:31:41,017 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT u.*,r.*,p.* FROM user u inner join user_role ur ON ur.uid = u.uid INNER JOIN role r ON r.rid = ur.rid INNER JOIN permission_role pr ON pr.rid = r.rid INNER JOIN permission p ON p.pid = pr.pid WHERE u.username = ? 
+2018-08-08 10:31:41,194 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: demo(String)
+2018-08-08 10:31:41,220 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-08-08 10:44:20,954 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-08 10:44:29,074 INFO (StartupInfoLogger.java:59)- Started ZuulApplication in 10.271 seconds (JVM running for 10.722)
+2018-08-08 10:45:02,101 DEBUG (SecurityAction.java:53)- 登录了
+2018-08-08 10:45:20,061 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT u.*,r.*,p.* FROM user u inner join user_role ur ON ur.uid = u.uid INNER JOIN role r ON r.rid = ur.rid INNER JOIN permission_role pr ON pr.rid = r.rid INNER JOIN permission p ON p.pid = pr.pid WHERE u.username = ? 
+2018-08-08 10:45:20,247 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: demo(String)
+2018-08-08 10:45:20,271 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-08-08 10:46:09,329 DEBUG (SecurityAction.java:53)- 登录了
+2018-08-08 10:46:22,667 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT u.*,r.*,p.* FROM user u inner join user_role ur ON ur.uid = u.uid INNER JOIN role r ON r.rid = ur.rid INNER JOIN permission_role pr ON pr.rid = r.rid INNER JOIN permission p ON p.pid = pr.pid WHERE u.username = ? 
+2018-08-08 10:46:22,668 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2018-08-08 10:46:22,673 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2018-08-08 14:01:42,655 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-08 14:01:51,714 INFO (StartupInfoLogger.java:59)- Started ZuulApplication in 11.338 seconds (JVM running for 11.797)
+2018-08-08 14:02:34,823 DEBUG (SecurityAction.java:53)- 登录了
+2018-08-08 14:02:38,986 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT u.*,r.*,p.* FROM user u inner join user_role ur ON ur.uid = u.uid INNER JOIN role r ON r.rid = ur.rid INNER JOIN permission_role pr ON pr.rid = r.rid INNER JOIN permission p ON p.pid = pr.pid WHERE u.username = ? 
+2018-08-08 14:02:39,257 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: demo(String)
+2018-08-08 14:02:39,281 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-08-08 14:05:04,379 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-08 14:05:12,213 INFO (StartupInfoLogger.java:59)- Started ZuulApplication in 10.018 seconds (JVM running for 10.457)
+2018-08-08 14:05:44,276 DEBUG (SecurityAction.java:53)- 登录了
+2018-08-08 14:05:50,081 DEBUG (SecurityAction.java:53)- 登录了
+2018-08-08 14:05:52,149 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT u.*,r.*,p.* FROM user u inner join user_role ur ON ur.uid = u.uid INNER JOIN role r ON r.rid = ur.rid INNER JOIN permission_role pr ON pr.rid = r.rid INNER JOIN permission p ON p.pid = pr.pid WHERE u.username = ? 
+2018-08-08 14:05:52,328 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: demo(String)
+2018-08-08 14:05:52,380 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-08-08 14:10:00,028 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-08 14:10:08,411 INFO (StartupInfoLogger.java:59)- Started ZuulApplication in 10.63 seconds (JVM running for 11.113)
+2018-08-08 14:11:16,539 DEBUG (SecurityAction.java:54)- 登录了
+2018-08-08 14:11:18,000 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT u.*,r.*,p.* FROM user u inner join user_role ur ON ur.uid = u.uid INNER JOIN role r ON r.rid = ur.rid INNER JOIN permission_role pr ON pr.rid = r.rid INNER JOIN permission p ON p.pid = pr.pid WHERE u.username = ? 
+2018-08-08 14:11:18,173 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: demo(String)
+2018-08-08 14:11:18,198 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-08-08 14:22:25,252 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-08 14:22:33,743 INFO (StartupInfoLogger.java:59)- Started ZuulApplication in 10.755 seconds (JVM running for 11.225)
+2018-08-08 14:22:47,207 DEBUG (SecurityAction.java:54)- 登录了
+2018-08-08 14:22:48,776 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT u.*,r.*,p.* FROM user u inner join user_role ur ON ur.uid = u.uid INNER JOIN role r ON r.rid = ur.rid INNER JOIN permission_role pr ON pr.rid = r.rid INNER JOIN permission p ON p.pid = pr.pid WHERE u.username = ? 
+2018-08-08 14:22:48,963 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: demo(String)
+2018-08-08 14:22:48,987 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-08-08 14:24:02,056 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-08 14:24:10,658 INFO (StartupInfoLogger.java:59)- Started ZuulApplication in 10.964 seconds (JVM running for 11.469)
+2018-08-08 14:24:23,198 DEBUG (SecurityAction.java:54)- 登录了
+2018-08-08 14:24:26,787 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT u.*,r.*,p.* FROM user u inner join user_role ur ON ur.uid = u.uid INNER JOIN role r ON r.rid = ur.rid INNER JOIN permission_role pr ON pr.rid = r.rid INNER JOIN permission p ON p.pid = pr.pid WHERE u.username = ? 
+2018-08-08 14:24:26,961 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: demo(String)
+2018-08-08 14:24:26,986 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-08-08 16:13:06,780 DEBUG (SecurityAction.java:54)- 登录了
+2018-08-08 16:13:08,142 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT u.*,r.*,p.* FROM user u inner join user_role ur ON ur.uid = u.uid INNER JOIN role r ON r.rid = ur.rid INNER JOIN permission_role pr ON pr.rid = r.rid INNER JOIN permission p ON p.pid = pr.pid WHERE u.username = ? 
+2018-08-08 16:13:08,144 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: demo(String)
+2018-08-08 16:13:08,152 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
